@@ -54,13 +54,9 @@ jobs:
         target: [ google_apis ]
         channel: [ stable ]
         api-level:
-          - 21
-          - 23
-          - 26
           - 29
           - 30
           - 31
-          - 34
         include:
           - os: ubuntu-latest
             arch: x86
